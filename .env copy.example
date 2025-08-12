@@ -1,0 +1,12 @@
+# Supabase Configuration (Primary)
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# Node-RED Configuration (Alternative)
+VITE_NODE_RED_API_URL=http://localhost:1880/api
+VITE_NODE_RED_WS_URL=ws://localhost:1880/ws
+VITE_API_KEY=your_api_key_here
+VITE_ENABLE_MOCK_DATA=false
+
+# Optional: Database connection (if using direct database access)
+VITE_DATABASE_URL=your_database_url_here
